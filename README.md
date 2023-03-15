@@ -39,6 +39,8 @@ Both DuckDB and Polars require learning new syntax, though DuckDB's SQL API will
 
 DuckDB integrates really well with pandas. For example, I was able to port the heavy lifting queries of a pandas project into DuckDB, save the results as a pandas dataframes, and plot them using my existing Matplotlib code. Too cool!
 
+The pushdown features of DuckDB do make me reevaluate the value of tidy format data also popular in parquet files, but that will have to be a post for another day.
+
 ### Files
 
 - **.gitignore**: GitHub Python git ignore file sourced [here](https://github.com/github/gitignore/blob/main/Python.gitignore), modified to ignore .parquet files
